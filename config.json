@@ -7,34 +7,46 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
-      "css": "phone",
+      "uid": "8045477f6a7ef0bd7caff130ad25b88d",
+      "css": "facebook-rect",
+      "code": 62209,
+      "src": "brandico"
+    },
+    {
+      "uid": "4c01f5d3ba5fbf029bca8630cce41e6a",
+      "css": "twitter-bird",
+      "code": 62211,
+      "src": "brandico"
+    },
+    {
+      "uid": "24d1008bf15b6c02a5e7a6af026987dd",
+      "css": "github-text",
+      "code": 62215,
+      "src": "brandico"
+    },
+    {
+      "uid": "5a00c877da3f63d37cdc021815e3f5a9",
+      "css": "skype",
+      "code": 62219,
+      "src": "brandico"
+    },
+    {
+      "uid": "cc20f2a7fa05a475130c406740bbbd26",
+      "css": "instagram-filled",
+      "code": 62239,
+      "src": "brandico"
+    },
+    {
+      "uid": "fb4794d89b77ab712ad56c0dc4c76c6b",
+      "css": "spotify",
+      "code": 61884,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "cba6018f5de17c76f70b7d2c06037e5a",
+      "css": "mail",
       "code": 59392,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "4743b088aa95d6f3b6b990e770d3b647",
-      "css": "facebook-squared",
-      "code": 62216,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "e7cb72a17f3b21e3576f35c3f0a7639b",
-      "css": "git",
-      "code": 61907,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "f0cf7db1b03cb65adc450aa3bdaf8c4d",
-      "css": "gplus-squared",
-      "code": 61652,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "a58032f4aafd0eec54803075f5b320d4",
-      "css": "email",
-      "code": 59393,
-      "src": "zocial"
+      "src": "websymbols"
     }
   ]
 }
