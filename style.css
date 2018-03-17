@@ -1,28 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin,latin-ext);
+* {
+  box-sizing: border-box;
+}
+
+html
+{
+	font-size: 1em;
+	font-family: 'Oswald';
+	background-color: #fff;
+	color: #d9d9d9;
+
+}
 body
 {
-background-color: #303030;
-font-family: 'Lato', sans-serif
-font-size: 20px;
-background-image: url("Tlo.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
+margin: 0;
+}
+
+.separator
+{
+	font-size: 1.6em;
+	padding: 2.6em 0;
+	text-align: center;
+	background: #333;
 }
 
 
 
 #container
 {
-	width: 1000px;
+	
 	margin-right: auto;
 	margin-left: auto;
 
 }
 
-#header
+.header
 {
- width: 960px;
- margin: 20px;
  text-align: center;
+
 
 }
 
@@ -31,11 +46,11 @@ background-attachment: fixed;
 float: left;
 font-size: 35px;
 font-family: 'Josefin Sans', sans-serif;
-width: 440px;
-height: 70px;
-margin: 20px;
 text-align: right;
 color: white;
+width: 45%;
+box-sizing: border-box;
+margin: 20px;
 
 }
 
@@ -45,45 +60,63 @@ float: left;
 font-size: 35px;
 text-align: left;
 font-family: 'Josefin Sans', sans-serif;
-width: 440px;
-height: 70px;
-margin: 20px;
 color: white;
+width: 45%;
+box-sizing: border-box;
+ margin: 20px;
+
+
+
+}
+.content
+{
+	color: #fff;
+	min-height: 800px;
+	text-align: center;
+	background-size: cover;
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	text-shadow: 0 0 20px #000;
+  	font-size: 1.8em;
+  	clear: both;
+  	padding: 5px;
 
 
 }
 
-#left
-{
- background-color: orange;
- clear: both;
-}
 
-#center
-{
 
-float: left;
-text-align: center;
-width: 800px;
-margin: 20px;
-padding: 100px
+.bg1
+{
+	background-color: #333;
+	background-image: url("img/Tlo.jpg");
 
 }
-
-#right
+.bg2
 {
-background-color: brown;
-float: left;
+	background-color: #fff;
+	background-image: url("img/img2.jpg");
+}
+
+.bg3
+{
+	background-color: #fff;
+	background-image: url("img/img3.jpg");
 
 }
 
 #footer
 {
-height: 250px;
-background-color: blue
+	min-height: 50px;
+	background-color: #666 ;
+	padding: 20px;
 
-clear: both;
 }
+#coppyrated
+{
+	float: right;
+}
+
 a:link
 {
 	text-decoration: none;
@@ -94,6 +127,8 @@ h1
 	font-family: 'Courgette', cursive;
 	font-size: 100px;
 	color: #005ce6;
+	clear: both;
+
 }
 h3
 {
