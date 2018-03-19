@@ -8,6 +8,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans&subset=latin,latin-ext' rel="stylesheet" type="text/css" >
 	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="SmoothScroll.js"></script>
 
 
 	
@@ -15,21 +17,29 @@
 <body>
 	
 	<div id="container">
+	<header id="top">
 		<div class="content bg1">
 			<div class="header">
-			<div id="logo"><a href="index.html">O mnie</a> </div>
-			<div id="prace"><a href="prace.html">Prace</a> </div>
+			<nav>
+		<a href="#me"><button class="menu-button">O mnie</button></a>
+		<a href="#achievement"><button class="menu-button">Osiągnięcia</button></a>
+		<a href="#skillss"><button class="menu-button">Umiejętności</button></a>
+		<a href="#footer"><button class="menu-button">Kontakt</button></a>
+		<a href="#top"><button class="menu-button">Top</button></a>
+		<div class="cb"></div>
+			</nav>
 			</div>
 			<br>
 			<br>
 			<h1>Jakub Madro</h1>
 			<h3>Webmaster & hardware</h3>
 		</div>
-
+	</header>	
+	<section id="me">
 		<section class="separator">
 			<h3>O MNIE </h3>
 		</section>
-
+	
 		<div class="content bg2">
 			
 			<h2>Jakub Mądro</h2>
@@ -45,14 +55,55 @@
 
 
 		</div>
-
+	</section>		
+	<section id="achievement">
 		<section class="separator">
-			<h3>KONTAKT JAKUB MADRO@GMAIL.COM</h3>
+			<h3>Osiągniecia</h3>
 		</section>
-
+	</section>	
 		<div class="content bg3">
 
+
+
+
 		</div>
+
+	<section id="skillss">
+		<section class="separator">
+			<h3>Umiejętności</h3>
+		</section>
+	</section>
+
+	<section class="skills" id="skills">
+		<div class="content bg4"> 
+			<h5>Umiejętności</h5>
+
+				<div class="skill"><h4>C#</h4>0%</div>
+				<div class="skill"><h4>WPF</h4>0%</div>
+				<div class="skill"><h4>C++</h4>67%</div>
+				<div class="skill"><h4 class="html">HTML/CSS<br>JS</h4>41%</div>
+				<div class="skill"><h4>PHP</h4>4%</div>
+				<div class="skill"><h4>GIT</h4>0%</div>
+
+		</div>			
+	</section>	
+
+	</div>
+
+	<section id="contact">
+		<section class="separator">
+			<h3>Kontakt</h3>
+		</section>
+	</section>
+
+	<div class="content bg5"> 
+
+
+
+
+
+
+	</div>
 
 		<div id="footer">
 				<a target="_blank" href="https://plus.google.com/103821453077002989927?hl=pl"><i class="demo-icon icon-instagram-filled"></i></a>

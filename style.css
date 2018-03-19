@@ -1,3 +1,5 @@
+/* 1. CSS Reset
+-------------------------------------------------------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin,latin-ext);
 * {
   box-sizing: border-box;
@@ -15,18 +17,45 @@ body
 {
 margin: 0;
 }
+a
+{
+  text-decoration: none;
+  color: white;
+}
+h1
+{
+  font-family: 'Courgette', cursive;
+  font-size: 100px;
+  color: #0099ff;
+  clear: both;
 
+}
+h2
+{
+  font-family:'Courgette', cursive;
+  font-size: 60px ;
+  color: #0099ff
+;
+}
+h3
+{
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+  color: #0099ff;
+}
 .separator
 {
-	font-size: 1.6em;
+	font-size: 20px;
 	padding: 2.6em 0;
-	text-align: center;
 	background: #333;
+  height: 200px;
+  text-align: center;
+  padding-bottom: 130px;
 }
 .content
 {
 	color: #fff;
-	min-height: 800px;
+	min-height: 1000px;
 	text-align: center;
 	background-size: cover;
   	background-attachment: fixed;
@@ -55,6 +84,14 @@ margin: 0;
 	background-color: #fff;
 	background-image: url("img3.jpg");
 }
+.bg4
+{
+  background-image: url("img4.jpg");
+}
+.bg5
+{
+  background-image: url("img5.jpg");
+}
 
 #container
 {
@@ -64,6 +101,9 @@ margin: 0;
 
 }
 
+/*-------------------------------------------------------------------------------
+ 2. Header part
+-------------------------------------------------------------------------------*/
 .header
 {
  text-align: center;
@@ -94,6 +134,30 @@ box-sizing: border-box;
  margin: 20px;
 
 }
+/*-------------------------------------------------------------------------------
+3. Start
+-------------------------------------------------------------------------------*/
+
+
+
+
+.menu-button{
+  
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  height: 8px;
+  padding: 17px;
+  background-color: transparent;
+  border:0px;
+  color: #fff
+
+}
+
+/*-------------------------------------------------------------------------------
+3. About me
+-------------------------------------------------------------------------------*/
+
 
 #awatar
 {
@@ -110,8 +174,49 @@ box-sizing: border-box;
 	float: right;
 	transform: rotate(-90deg);
 }
+/*-------------------------------------------------------------------------------
+3. Skills part
+-------------------------------------------------------------------------------*/
+.skills{
+  min-height: 92vh;
+  background-color: #eeeeee;
+}
 
+.skills > h3{
+  color: #ff675f;
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.skills > article{
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skill{
+  width: 300px;
+  height: 300px;
+  border: 3px solid #ff675f;
+  border-radius: 100%;
+  float: left;
+  margin: 50px;
+  text-align: center;
+  font-size: 24px;
+  color: #474d5d;
+}
 
+.skill > h4{
+  margin-top: 115px;
+  color: #333333;
+  font-size: 50px;
+}
+
+.skill > .html{
+  margin-top: 90px;
+}
+/*-------------------------------------------------------------------------------
+3. Footer
+-------------------------------------------------------------------------------*/
 
 #footer
 {
@@ -125,11 +230,6 @@ box-sizing: border-box;
 	float: right;
 }
 
-a
-{
-	text-decoration: none;
-	color: white;
-}
 h1
 {
 	font-family: 'Courgette', cursive;
@@ -150,6 +250,15 @@ h3
 	font-family: 'Courgette', cursive;
 	font-size: 40px;
 	color: #0099ff;
+}
+h5
+{
+
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courgette', sans-serif;
+
 }
 
 
